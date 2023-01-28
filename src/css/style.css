@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(242, 234, 234);
+    background-color: rgb(254, 255, 237);
 }
 
 .gallery {
@@ -30,7 +30,7 @@ body {
 }
 
 .photo-card {
-    background-color: #c5c5fa;
+    background-color: #9e9eac;
 }
 
 img {
@@ -45,7 +45,7 @@ img {
     align-items: center;
     text-align: center;
     height: 50px;
-    background-color: #2a2a85;
+    background-color:  #9e9eac;
 }
 
 input {
