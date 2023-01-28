@@ -37,7 +37,9 @@ async function getData(query, page) {
     // console.log(data);
     renderImages(data);
     gallery.refresh();
-    observer.observe(refDivGuard);
+    if (data.total > 40) {
+        observer.observe(refDivGuard);
+    }
     return data;
   } catch (error) {
     console.log(error.message);
