@@ -34,10 +34,10 @@ function onInput(e) {
 async function getData(query, page) {
   try {
     const data = await fetchImages(query, page);
-    // console.log(data);
+    // console.log(data.data.total);
     renderImages(data);
     gallery.refresh();
-    if (data.total > 40) {
+    if (data.data.total > 40) {
         observer.observe(refDivGuard);
     }
     return data;
